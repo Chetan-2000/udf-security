@@ -66,7 +66,8 @@ const Footer = () => {
                             </h5>
                             <div className='mt-4'>
                                 <ul>
-                                    <li><Link to={"/"} className='ck-text-3 text-white'>Corporate and Industrial Security</Link></li>
+                                    <li><Link to={"/"} className='ck-text-3 text-white'>Corporate Security</Link></li>
+                                    <li><Link to={"/"} className='ck-text-3 text-white'>Industrial Security</Link></li>
                                     <li><Link to={"/"} className='ck-text-3 text-white'>Bank Security</Link></li>
                                     <li><Link to={"/"} className='ck-text-3 text-white'>Residential Security</Link></li>
                                     <li><Link to={"/"} className='ck-text-3 text-white'>Commercial Complex</Link></li>
@@ -102,15 +103,15 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='d-md-block d-lg-none'>
-                    <div class="accordion accordion-flush text-center" id="accordionFlushExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <div className="accordion accordion-flush text-center" id="accordionFlushExample">
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="flush-headingOne">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                                     Information links
                                 </button>
                             </h2>
-                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <ul class="accordion-body">
+                            <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <ul className="accordion-body">
                                     <li><Link to={"/"} className='ck-text-3 text-white'>Home</Link></li>
                                     <li><Link to={"/"} className='ck-text-3 text-white'>About us</Link></li>
                                     <li><Link to={"/"} className='ck-text-3 text-white'>Services</Link></li>
@@ -118,15 +119,16 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="flush-headingTwo">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                                     Our Services
                                 </button>
                             </h2>
-                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                <ul class="accordion-body">
-                                    <li><Link to={"/"} className='ck-text-3 text-white'>Corporate and Industrial Security</Link></li>
+                            <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <ul className="accordion-body">
+                                    <li><Link to={"/"} className='ck-text-3 text-white'>Corporate Security</Link></li>
+                                    <li><Link to={"/"} className='ck-text-3 text-white'>Industrial Security</Link></li>
                                     <li><Link to={"/"} className='ck-text-3 text-white'>Bank Security</Link></li>
                                     <li><Link to={"/"} className='ck-text-3 text-white'>Residential Security</Link></li>
                                     <li><Link to={"/"} className='ck-text-3 text-white'>Commercial Complex</Link></li>
@@ -136,27 +138,27 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="flush-headingThree">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                                     City
                                 </button>
                             </h2>
-                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <ul class="accordion-body">
+                            <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <ul className="accordion-body">
                                     <li><Link to={"/"} className='ck-text-3 text-white'>Location1</Link></li>
                                     <li><Link to={"/"} className='ck-text-3 text-white'>Location2</Link></li>
                                     <li><Link to={"/"} className='ck-text-3 text-white'>Location3</Link></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="flush-headingFour">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                                     Contact us
                                 </button>
                             </h2>
-                            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                                 <div className='accordion-body text-start'>
                                     <div className='d-flex'>
                                         <div>

@@ -15,6 +15,9 @@ const Landing = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sit doloremque<br /> animi tempore illum nobis praesentium ab.
                     </p>
                     <CKButton title={"Discover more"} link={"/"} />
+                    {/* <div>
+                        <Link to={'/'} className="ck-btn-1">Discover more</Link>
+                    </div> */}
                 </div>
             </div>
         </div>

@@ -1,19 +1,89 @@
-.ck-btn {
+.ck-btn-1 {
+    width: 200px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #FF512F 0%, #F09819 51%, #FF512F 100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.ck-btn-1:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.ck-btn-1:active {
+    transform: scale(0.95);
+}
+
+
+/* button 2 */
+
+.ck-btn-2 {
+    width: 150px;
     padding: 10px 20px;
-    background-color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #FF512F 0%, #F09819 51%, #FF512F 100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
 
-.ck-btn:hover {
-    background-color: rgb(248, 76, 46);
-    color: #ffffff;
+.ck-btn-2:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
 }
 
-.ck-btn-text {
-    font-size: 21px;
-    color: #ffffff;
+.ck-btn-2:active {
+    transform: scale(0.95);
 }
 
-.ck-btn-text-2{
-    font-size: 18px;
-    color: #ffffff;
+
+
+/* button pill */
+
+.ck-btn-pill {
+    background: tomato;
+    border-radius: 999px;
+    box-shadow: tomato 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
 }
