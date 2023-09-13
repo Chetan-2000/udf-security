@@ -38,7 +38,7 @@ const Testimonials = () => {
             <div className="container">
                 <h2 className=''>Testimonials</h2>
                 <div className='mt-5'>
-                    <OwlCarousel className='owl-carousel' {...options}>
+                    <OwlCarousel className='owl-carousel py-5' {...options}>
                         {TestimonialData.map((n, i) => (
                             <div key={i} className="w-100 h-100 testimonals-card p-5 item cursor-pointer">
                                 <p className="ck-text-2">

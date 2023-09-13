@@ -19,18 +19,6 @@ const Navbar = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     })
-
-    const [showDropdown, setShowDropdown] = useState(false);
-
-    const handleMouseEnter = () => {
-        setShowDropdown(true);
-    };
-
-    const handleMouseLeave = () => {
-        setShowDropdown(false);
-    };
-
-
     return (
         <header>
 
@@ -60,20 +48,38 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <Link className={`nav-link ${isSticky ? 'text-dark' : 'text-white'}`} to="/About">About Lorem</Link>
                             </li>
-                            <li className="nav-item dropdown"
-                                onMouseEnter={handleMouseEnter}
-                                onMouseLeave={handleMouseLeave}
-                            >
-                                <Link className={`nav-link dropdown-toggle ${isSticky ? 'text-dark' : 'text-white'}`} to={'#'} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded={showDropdown}>Services</Link>
-                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><Link to={"/"} className='ck-text-3 dropdown-item'>Corporate Security</Link></li>
-                                    <li><Link to={"/"} className='ck-text-3 dropdown-item'>Industrial Security</Link></li>
-                                    <li><Link to={"/"} className='ck-text-3 dropdown-item'>Bank Security</Link></li>
-                                    <li><Link to={"/"} className='ck-text-3 dropdown-item'>Residential Security</Link></li>
-                                    <li><Link to={"/"} className='ck-text-3 dropdown-item'>Commercial Complex</Link></li>
-                                    <li><Link to={"/"} className='ck-text-3 dropdown-item'>Hotel Security</Link></li>
-                                    <li><Link to={"/"} className='ck-text-3 dropdown-item'>Body Guard</Link></li>
-                                </ul>
+                            <li className="nav-item dropdown">
+
+                                {isSticky ?
+                                    <>
+                                        <div className='light-navbar-dropdown'>
+                                            <Link className={`nav-link dropdown-toggle ${isSticky ? 'text-dark' : 'text-white'}`} to={'#'} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</Link>
+                                            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Corporate Security</Link></li>
+                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Industrial Security</Link></li>
+                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Bank Security</Link></li>
+                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Residential Security</Link></li>
+                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Commercial Complex</Link></li>
+                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Hotel Security</Link></li>
+                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Body Guard</Link></li>
+                                            </ul>
+                                        </div>
+                                    </>
+                                    :
+                                    <>
+                                        <div className='dark-navbar-dropdown'>
+                                            <Link className={`nav-link dropdown-toggle ${isSticky ? 'text-dark' : 'text-white'}`} to={'#'} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</Link>
+                                            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Corporate Security</Link></li>
+                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Industrial Security</Link></li>
+                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Bank Security</Link></li>
+                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Residential Security</Link></li>
+                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Commercial Complex</Link></li>
+                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Hotel Security</Link></li>
+                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Body Guard</Link></li>
+                                            </ul>
+                                        </div>
+                                    </>}
                             </li>
                             <li className="nav-item">
                                 <Link className={`nav-link ${isSticky ? 'text-dark' : 'text-white'}`} to="/Training">Training</Link>
