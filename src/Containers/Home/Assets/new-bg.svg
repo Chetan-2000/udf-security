@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" style="display: block; width: 100%; height: auto; margin-top: 4%; overflow: hidden" class="shadow-lg">
+    <linearGradient id="main_gradient" gradientTransform="scale(1.4) rotate(45)">
+        <stop offset="0" style="stop-color:#091d42" class="stop-0"></stop>
+        <stop offset="0.33" style="stop-color:#0c275a" class="stop-1"></stop>
+        <stop offset="0.66" style="stop-color:#0f3170" class="stop-2"></stop>
+        <stop offset="1" style="stop-color:#123b87" class="stop-3"></stop>
+    </linearGradient>
+    <rect width="512" height="512" fill="url(#main_gradient)"></rect>
+</svg>

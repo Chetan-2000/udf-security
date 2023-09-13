@@ -1,0 +1,40 @@
+.home-banner {
+    background-image: url('./Assets/banner-security.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.services-bg {
+    background-image: url('./Assets/services-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* testimonials */
+
+.testimonials-image {
+    height: 60px;
+    width: 60px !important;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.owl-carousel .owl-dots {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.owl-carousel .owl-dots button.owl-dot {
+    background: #68748D !important;
+    border: none !important;
+    padding: 10px !important;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.owl-carousel .owl-dots button.owl-dot.active {
+    background: tomato !important;
+}

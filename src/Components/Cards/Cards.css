@@ -1,0 +1,43 @@
+.service-offer-card {
+    /* border: 1px solid #213252; */
+    border-radius: 8px;
+    background-color: #f6f6f6;
+    /* background: rgba(23,39,69,0.9); */
+}
+
+.service-offer-card:hover {
+    /* border: 1px solid tomato; */
+    transition: 0.3s;
+    cursor: pointer;
+    background: rgba(23, 39, 69, 0.9);
+}
+
+
+.service-svg {
+    transition: fill 0.3s;
+    /* Add a smooth transition effect */
+}
+
+.service-offer-card:hover .service-svg {
+    fill: tomato;
+}
+
+.service-offer-card:hover h4,
+.service-offer-card:hover p {
+    color: #ffffff;
+}
+
+.service-offer-card p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+
+/* testimonials card */
+
+.testimonals-card {
+    border: 1px solid #213252;
+    border-radius: 8px;
+}

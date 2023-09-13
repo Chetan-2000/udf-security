@@ -1,0 +1,83 @@
+.navbar-dark-color {
+    background-color: #091D42 !important;
+}
+
+.navbar-blur-color {
+    backdrop-filter: blur(20px);
+    background-color: #ffffffa5 !important;
+}
+
+.nav-link {
+    padding: 8px 20px !important;
+}
+
+.text-dark {
+    color: #091D42;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none
+}
+
+/* toggle icons for dark bg */
+
+.dark-navbar-toggler .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before {
+    content: '';
+    background-image: url(./Assets/CloseLight.Svg);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    padding: 10px !important;
+    display: inline-block;
+}
+
+.dark-navbar-toggler .navbar-toggler[aria-expanded="false"] .navbar-toggler-icon::before {
+    content: '';
+    background-image: url(./Assets/HamburgerLight.svg);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.dark-navbar-toggler .navbar-toggler-icon {
+    background-image: none
+}
+
+
+/* toggle icons for light bg */
+
+.light-navbar-toggler .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before {
+    content: '';
+    background-image: url(./Assets/CloseDark.Svg);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    padding: 10px !important;
+    display: inline-block;
+}
+
+.light-navbar-toggler .navbar-toggler[aria-expanded="false"] .navbar-toggler-icon::before {
+    content: '';
+    background-image: url(./Assets/HamburgerDark.svg);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.light-navbar-toggler .navbar-toggler-icon {
+    background-image: none
+}

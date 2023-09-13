@@ -1,0 +1,79 @@
+footer {
+    padding: 100px 0 0 0;
+    /* border-top: 1px solid tomato; */
+    background: rgb(9, 29, 66);
+    background: linear-gradient(180deg, rgba(9, 29, 66, 1) 0%, rgba(6, 20, 45, 1) 50%, rgba(3, 10, 22, 1) 100%);
+}
+
+
+.hr-divider {
+    margin-top: 48px;
+}
+
+@media screen and (max-width: 992px) {
+    footer {
+        padding: 50px 0 0 0;
+    }
+
+    .hr-divider {
+        margin-top: 20px;
+    }
+
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-left: 10px;
+    margin-bottom: 6px;
+}
+
+.hr-divider {
+    border-top: 0.1px solid #f8f9fa43;
+}
+
+
+footer .accordion .accordion-item,
+.accordion-button {
+    background-color: transparent !important;
+    padding: 0 !important;
+    margin-bottom: 10px;
+    color: #ffffff;
+    border: none;
+}
+
+
+footer .accordion-collapse .accordion-body {
+    padding: 5px 0 10px 0;
+}
+
+footer .accordion-button:not(.collapsed) {
+    color: #ffffff;
+    background-color: #e7f1ff;
+    box-shadow: none;
+}
+
+footer .accordion-button:focus {
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+
+footer .accordion-button:not(.collapsed)::after {
+    background-image: url(./Assets/arrow.svg);
+    transform: rotate(-0deg);
+}
+
+footer .accordion-button::after {
+    background-image: url(./Assets/arrow.svg);
+    transform: rotate(-90deg);
+    background-size: 1rem;
+}
+
+footer .footer-logo {
+    max-width: 180px;
+}

@@ -1,0 +1,202 @@
+/* Base font sizes for larger devices (desktop, laptop, tablet) */
+h1 {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+.ck-text-1 {
+  font-size: 20px;
+}
+
+.ck-text-2 {
+  font-size: 18px;
+}
+
+.csp-text-3{
+  font-size: 16px;
+}
+
+/* Responsive styles for medium-sized screens (between 768px and 992px) */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  h1 {
+    font-size: 60px;
+    /* Adjust the font size for medium-sized screens */
+  }
+
+  h2 {
+    font-size: 40px;
+    /* Adjust the font size for medium-sized screens */
+  }
+
+  h3 {
+    font-size: 24px;
+    /* Adjust the font size for medium-sized screens */
+  }
+
+  .ck-text-1 {
+    font-size: 18px;
+    /* Adjust the font size for medium-sized screens */
+  }
+
+  .ck-text-2 {
+    font-size: 16px;
+    /* Adjust the font size for medium-sized screens */
+  }
+}
+
+/* Responsive styles for larger screens (992px and above) */
+@media screen and (min-width: 993px) and (max-width: 1400px) {
+  h1 {
+    font-size: 70px;
+    /* Adjust the font size for larger screens */
+  }
+
+  h2 {
+    font-size: 50px;
+    /* Adjust the font size for larger screens */
+  }
+
+  h3 {
+    font-size: 30px;
+    /* Adjust the font size for larger screens */
+  }
+
+  .ck-text-1 {
+    font-size: 22px;
+    /* Adjust the font size for larger screens */
+  }
+
+  .ck-text-2 {
+    font-size: 20px;
+    /* Adjust the font size for larger screens */
+  }
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 50px;
+    /* Adjust the font size for smaller screens */
+  }
+
+  h2 {
+    font-size: 35px;
+    /* Adjust the font size for smaller screens */
+  }
+
+  h3 {
+    font-size: 18px;
+    /* Adjust the font size for smaller screens */
+  }
+
+  .ck-text-1 {
+    font-size: 16px;
+    /* Adjust the font size for smaller screens */
+  }
+
+  .ck-text-2 {
+    font-size: 14px;
+    /* Adjust the font size for smaller screens */
+  }
+}
+
+/* Responsive styles for even smaller screens */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 40px;
+    /* Adjust the font size for even smaller screens */
+  }
+
+  h2 {
+    font-size: 30px;
+    /* Adjust the font size for even smaller screens */
+  }
+
+  h3 {
+    font-size: 18px;
+    /* Adjust the font size for even smaller screens */
+  }
+
+  .ck-text-1 {
+    font-size: 14px;
+    /* Adjust the font size for even smaller screens */
+  }
+
+  .ck-text-2 {
+    font-size: 12px;
+    /* Adjust the font size for even smaller screens */
+  }
+}
+
+
+
+/* Responsive styles for medium-sized screens (between 768px and 992px) */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+  h1 {
+    font-size: 60px;
+  }
+
+  .ck-btn-text {
+    font-size: 20px;
+  }
+
+  .ck-text-1 {
+    font-size: 18px;
+  }
+}
+
+/* Responsive styles for larger screens (992px and above) */
+@media screen and (min-width: 993px) and (max-width : 1400px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  .ck-btn-text {
+    font-size: 21px;
+  }
+
+  .ck-text-1 {
+    font-size: 20px;
+  }
+}
+
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  .ck-btn-text {
+    font-size: 18px;
+  }
+
+  .ck-text-1 {
+    font-size: 16px;
+  }
+}
+
+/* Responsive styles for even smaller screens */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  .ck-btn-text {
+    font-size: 16px;
+  }
+
+  .ck-text-1 {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,18 @@
+/* Responsive styles for even smaller screens */
+@media screen and (max-width: 600px) {
+  .ck-main-container {
+    padding: 50px 0 !important;
+  }
+
+  .services-bg {
+    height: auto !important;
+  }
+
+
+}
+
+@media screen and (max-width : 992px) {
+  .service-card-container {
+    margin-top: 50px;
+  }
+}
