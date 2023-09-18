@@ -48,6 +48,7 @@ footer .accordion .accordion-item,
 
 footer .accordion-collapse .accordion-body {
     padding: 5px 0 10px 0;
+    text-align: center !important;
 }
 
 footer .accordion-button:not(.collapsed) {
@@ -76,4 +77,12 @@ footer .accordion-button::after {
 
 footer .footer-logo {
     max-width: 180px;
+}
+
+
+footer svg:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 0.4s;
+    box-shadow: #ffffff 0px 25px 50px -12px;
 }

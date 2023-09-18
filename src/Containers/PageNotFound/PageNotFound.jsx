@@ -5,7 +5,7 @@ const PageNotFound = () => {
     return (
         <div className="ck-container text-center pnf-bg position-relative">
             <img src={PNFImg} alt="page-not-found" className="img-fluid pnf-img" />
-            <Link to={'/'} className='btn ck-btn rounded-pill text-white ck-btn-text position-absolute pnf-btn'>Go To Home</Link>
+            <Link to={'/'} className='ck-btn-pill position-absolute pnf-btn'>Go To Home</Link>
         </div>
     )
 }

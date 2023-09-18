@@ -5,7 +5,7 @@ const Services = () => {
     return (
         <div className="ck-main-container bg-light d-flex align-items-center">
             <div className="container">
-                <div className="row">
+                <div className="row" data-aos="fade-up">
                     <div className="col-lg-4 col-md-12 col-sm-12">
                         <h2 className="">
                             Services<br />We Offer
@@ -15,7 +15,7 @@ const Services = () => {
                             in blanditiis aut dignissimos debitis facilis perspiciatis recusand
                         </p>
                     </div>
-                    <div className="col-lg-8 col-md-12 col-sm-12">
+                    <div className="col-lg-8 col-md-12 col-sm-12" >
                         <ServiceOffer data={ServiceOfferData} />
                     </div>
                 </div>

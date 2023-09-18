@@ -5,9 +5,15 @@ import Home from './Containers/Home/Home'
 import Footer from './Containers/Footer/Footer'
 import PageNotFound from './Containers/PageNotFound/PageNotFound'
 import DisableNavFooter from './Containers/PageNotFound/DisableNavFooter'
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react'
 
 function App() {
-
+    useEffect(() => {
+        AOS.init();
+        // AOS.refresh();
+    }, []);
     return (
         <BrowserRouter>
             <DisableNavFooter>

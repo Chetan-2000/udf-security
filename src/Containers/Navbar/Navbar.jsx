@@ -21,7 +21,6 @@ const Navbar = () => {
     })
     return (
         <header>
-
             <nav className={`navbar navbar-expand-lg bg-transparent ${isSticky ? 'fixed-top navbar-blur-color' : 'navbar-dark-color'}`}>
                 <div className="container">
                     <Link className="navbar-brand" to="/">

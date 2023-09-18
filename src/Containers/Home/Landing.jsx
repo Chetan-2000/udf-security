@@ -5,7 +5,7 @@ const Landing = () => {
     return (
         <div className="main-container home-banner d-flex align-items-center">
             <div className="container">
-                <div>
+                <div data-aos="fade-right">
                     <h1 className="text-white">
                         Secure your
                         <br />
