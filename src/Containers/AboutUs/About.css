@@ -1,0 +1,87 @@
+/* description */
+/* Default styles for images */
+.overview-image img {
+    max-width: 80% !important;
+    /* Ensure images don't exceed their container width */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+/* Responsive styles for smaller screens (e.g., smartphones) */
+@media (max-width: 767px) {
+    .overview-image {
+        display: flex;
+        justify-content: center;
+        padding: 0 0 40px 0;
+    }
+
+    .overview-image img {
+        max-width: 80%;
+        /* Adjust as needed for your layout */
+        height: auto;
+        /* Maintain aspect ratio */
+    }
+}
+
+/* Responsive styles for medium screens (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .overview-image {
+        display: flex;
+        justify-content: center;
+        padding: 0 0 40px 0;
+    }
+
+    .overview-image img {
+        max-width: 80%;
+        /* Adjust as needed for your layout */
+        height: auto;
+        /* Maintain aspect ratio */
+    }
+}
+
+/* Responsive styles for larger screens (e.g., desktops) */
+@media (min-width: 992px) {
+    .overview-image img {
+        max-width: 80%;
+        /* Adjust as needed for your layout */
+        height: auto;
+        /* Maintain aspect ratio */
+    }
+}
+
+
+/* mission and vission */
+.bottom-divider {
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    border-top: 1px solid #091D42;
+}
+
+
+/* sector */
+.sector-tab-container {
+    /* background-color: #091D42; */
+}
+
+/* Default styles for all devices */
+.sector-data-card-container {
+    padding-left: 50px;
+    /* Default padding */
+}
+
+/* Media query for screens with a maximum width of 768px (e.g., tablets) */
+@media (max-width: 992px) {
+    .sector-data-card-container {
+        padding-left: 30px;
+        /* Adjust padding for tablets */
+    }
+}
+
+@media (max-width: 600px) {
+    .sector-data-card-container {
+        padding-left: 0px;
+        /* Adjust padding for tablets */
+    }
+}

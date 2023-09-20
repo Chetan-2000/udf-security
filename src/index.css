@@ -18,6 +18,10 @@ a:hover {
   color: #ffffff;
 }
 
+.fw-600 {
+  font-weight: 600;
+}
+
 .bg-main {
   background-color: #091D42;
 }
@@ -35,6 +39,15 @@ a:hover {
   padding: 100px 0 !important;
 }
 
+.ck-main-container-top {
+  height: auto;
+  padding: 0 0 100px 0 !important;
+}
+
+.ck-80-container {
+  height: 80vh;
+}
+
 .ck-tomato {
   color: tomato;
 }
@@ -45,6 +58,10 @@ a:hover {
 
 .pnf-bg {
   background-color: #091D42;
+}
+
+.construction-bg {
+  background-color: #fbfcff;
 }
 
 .pnf-img {

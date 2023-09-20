@@ -44,23 +44,43 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <Link className={`nav-link ${isSticky ? 'text-dark' : 'text-white'}`} to="/">Home</Link>
                             </li>
-                            <li className="nav-item">
-                                <Link className={`nav-link ${isSticky ? 'text-dark' : 'text-white'}`} to="/About">About Lorem</Link>
+                            <li className="nav-item dropdown">
+                                {isSticky ?
+                                    <>
+                                        <div className='light-navbar-dropdown'>
+                                            <Link className={`nav-link dropdown-toggle ${isSticky ? 'text-dark' : 'text-white'}`} to={'#'} id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">About ESN</Link>
+                                            <ul className="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                                <li><Link to={"/Overview"} className='ck-text-3 dropdown-item'>Overview</Link></li>
+                                                <li><Link to={"/Who_We_Are"} className='ck-text-3 dropdown-item'>Who We Are?</Link></li>
+                                                <li><Link to={"/What_We_Do"} className='ck-text-3 dropdown-item'>What We Do?</Link></li>
+                                            </ul>
+                                        </div>
+                                    </>
+                                    :
+                                    <>
+                                        <div className='dark-navbar-dropdown'>
+                                            <Link className={`nav-link dropdown-toggle ${isSticky ? 'text-dark' : 'text-white'}`} to={'#'} id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">About ESN</Link>
+                                            <ul className="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                                <li><Link to={"/Overview"} className='ck-text-3 dropdown-item'>Overview</Link></li>
+                                                <li><Link to={"/Who_We_Are"} className='ck-text-3 dropdown-item'>Who We Are?</Link></li>
+                                                <li><Link to={"/What_We_Do"} className='ck-text-3 dropdown-item'>What We Do?</Link></li>
+                                            </ul>
+                                        </div>
+                                    </>}
                             </li>
                             <li className="nav-item dropdown">
-
                                 {isSticky ?
                                     <>
                                         <div className='light-navbar-dropdown'>
                                             <Link className={`nav-link dropdown-toggle ${isSticky ? 'text-dark' : 'text-white'}`} to={'#'} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</Link>
                                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Corporate Security</Link></li>
-                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Industrial Security</Link></li>
-                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Bank Security</Link></li>
-                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Residential Security</Link></li>
-                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Commercial Complex</Link></li>
-                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Hotel Security</Link></li>
-                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Body Guard</Link></li>
+                                                <li><Link to={"/Corporate_Security"} className='ck-text-3 dropdown-item'>Corporate Security</Link></li>
+                                                <li><Link to={"/Industrial_Security"} className='ck-text-3 dropdown-item'>Industrial Security</Link></li>
+                                                <li><Link to={"/Bank_Security"} className='ck-text-3 dropdown-item'>Bank Security</Link></li>
+                                                <li><Link to={"/Residential_Security"} className='ck-text-3 dropdown-item'>Residential Security</Link></li>
+                                                <li><Link to={"/Commercial_Complex_Security"} className='ck-text-3 dropdown-item'>Commercial Complex</Link></li>
+                                                <li><Link to={"/Hotel_Security"} className='ck-text-3 dropdown-item'>Hotel Security</Link></li>
+                                                <li><Link to={"/Body_Guard"} className='ck-text-3 dropdown-item'>Body Guard</Link></li>
                                             </ul>
                                         </div>
                                     </>
@@ -69,26 +89,26 @@ const Navbar = () => {
                                         <div className='dark-navbar-dropdown'>
                                             <Link className={`nav-link dropdown-toggle ${isSticky ? 'text-dark' : 'text-white'}`} to={'#'} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</Link>
                                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Corporate Security</Link></li>
-                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Industrial Security</Link></li>
-                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Bank Security</Link></li>
-                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Residential Security</Link></li>
-                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Commercial Complex</Link></li>
-                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Hotel Security</Link></li>
-                                                <li><Link to={"/"} className='ck-text-3 dropdown-item'>Body Guard</Link></li>
+                                                <li><Link to={"/Corporate_Security"} className='ck-text-3 dropdown-item'>Corporate Security</Link></li>
+                                                <li><Link to={"/Industrial_Security"} className='ck-text-3 dropdown-item'>Industrial Security</Link></li>
+                                                <li><Link to={"/Bank_Security"} className='ck-text-3 dropdown-item'>Bank Security</Link></li>
+                                                <li><Link to={"/Residential_Security"} className='ck-text-3 dropdown-item'>Residential Security</Link></li>
+                                                <li><Link to={"/Commercial_Complex_Security"} className='ck-text-3 dropdown-item'>Commercial Complex</Link></li>
+                                                <li><Link to={"/Hotel_Security"} className='ck-text-3 dropdown-item'>Hotel Security</Link></li>
+                                                <li><Link to={"/Body_Guard"} className='ck-text-3 dropdown-item'>Body Guard</Link></li>
                                             </ul>
                                         </div>
                                     </>}
                             </li>
                             <li className="nav-item">
-                                <Link className={`nav-link ${isSticky ? 'text-dark' : 'text-white'}`} to="/Training">Training</Link>
+                                <Link className={`nav-link ${isSticky ? 'text-dark' : 'text-white'}`} to="/Trainning">Training</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className={`nav-link ${isSticky ? 'text-dark' : 'text-white'}`} to="/Clients">Clients</Link>
                             </li>
                         </ul>
                         <form className="d-flex" role="search">
-                            <Link to="/ContactUs" className='ck-btn-pill'>
+                            <Link to="/Contact_Us" className='ck-btn-pill'>
                                 Contact Us
                             </Link>
                         </form>
