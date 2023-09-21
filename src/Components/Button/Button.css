@@ -104,6 +104,14 @@
     border-radius: 0;
 }
 
+@media screen and (max-width : 600px) {
+    .sector-tab {
+        padding: 10px 30px ;
+        font-weight: 500;
+        font-size: 15px;
+    }
+}
+
 .btn.sector-tab.active {
     background-color: #ffffff;
     color: #091D42;

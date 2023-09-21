@@ -127,7 +127,7 @@
 
 
 /* sector card */
-/* .sector-data-card */
+
 .sector-image {
     position: relative;
     max-width: 400px;
@@ -147,4 +147,11 @@
 
 .sector-image img:hover {
     transform: scale(1.1);
+}
+
+@media screen and (max-width : 992px) {
+    .sector-data-card h3{
+        margin-top: 30px;
+        font-size: 24px;
+    }
 }

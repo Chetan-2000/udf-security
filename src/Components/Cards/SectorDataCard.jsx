@@ -18,11 +18,22 @@ const SectorDataCard = ({ Heading, Paragraph, SectorImage }) => {
                         </div>
                     </div>
                     <div className="col-lg-6 col-mg-12">
-                        <h3 className="fw-600">
-                            {firstWord}
-                            <br />
-                            {restOfHeading}
-                        </h3>
+
+                        <div className='d-lg-block d-none'>
+                            <h3 className="fw-600 text-start">
+                                {firstWord}
+                                <br />
+                                {restOfHeading}
+                            </h3>
+                        </div>
+
+                        <div className='d-md-block d-lg-none'>
+                            <h3 className="fw-600 text-start">
+                                {firstWord}
+                                {" "}
+                                {restOfHeading}
+                            </h3>
+                        </div>
                     </div>
                 </div>
                 <p className="ck-text-2 mt-4">{Paragraph}</p>
