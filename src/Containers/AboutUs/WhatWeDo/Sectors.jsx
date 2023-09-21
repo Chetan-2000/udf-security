@@ -1,23 +1,13 @@
-import { useRef, useState } from "react"
+import { useState } from "react"
 import SectorTab from "../../../Components/Button/SectoreTab"
 import SectorData from "../../../assets/SectorData"
 import SectorDataCard from "../../../Components/Cards/SectorDataCard";
 
 const Sectors = () => {
     const [selectedSector, setSelectedSector] = useState(SectorData[0]); // Initialize with the first sector
-    const containerRef = useRef(null);
 
     const handleTabClick = (sectorItem) => {
         setSelectedSector(sectorItem);
-        const currentIndex = SectorData.findIndex((item) => item.heading === selectedSector.heading);
-        const newIndex = SectorData.findIndex((item) => item.heading === sectorItem.heading);
-
-        if (currentIndex !== newIndex) {
-            if (containerRef.current) {
-                const scrollAmount = (newIndex - currentIndex) * 300; // Adjust this value based on your desired scrolling behavior
-                containerRef.current.scrollLeft += scrollAmount;
-            }
-        }
     };
 
     return (
@@ -27,7 +17,7 @@ const Sectors = () => {
 
                 <div className="row">
                     <div className="col-lg-4 col-md-5 col-sm-12">
-                        <div className="d-flex flex-column mobile-scroll-content" ref={containerRef}>
+                        <div className="d-flex flex-column mobile-scroll-content">
                             {SectorData.map((sectorItem) => (
                                 <SectorTab
                                     key={sectorItem.heading}
