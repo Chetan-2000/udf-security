@@ -3,7 +3,18 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
+    background-attachment: fixed;
+    /* animation: ckAnimateZoomInOut 10s ease-out; */
 }
+
+/* @keyframes ckAnimateZoomInOut {
+    0% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+} */
 
 .services-bg {
     background-image: url('./Assets/services-bg.svg');

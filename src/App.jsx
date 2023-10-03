@@ -12,6 +12,13 @@ import Overview from './Containers/AboutUs/Overview/Overview'
 import Construction from './Containers/PageNotFound/Construction'
 import WhoWeAre from './Containers/AboutUs/WhoWeAre/WhoWeAre'
 import WhatWeDo from './Containers/AboutUs/WhatWeDo/WhatWeDo'
+import Corporate from './Containers/Services/Corporate/Corporate'
+import Industrial from './Containers/Services/Industrial/Industrial'
+import Bank from './Containers/Services/Bank/Bank'
+import Residential from './Containers/Services/Residential/Residential'
+import Commercial from './Containers/Services/Commercial/Commercial'
+import Hotel from './Containers/Services/Hotel/Hotel'
+import BodyGuard from './Containers/Services/BodyGuard/BodyGuard'
 
 function App() {
     useEffect(() => {
@@ -29,13 +36,13 @@ function App() {
                 <Route path='/What_We_Do' element={<WhatWeDo />} />
                 <Route path='/Who_We_Are' element={<WhoWeAre />} />
                 <Route path='/Trainning' element={<Construction />} />
-                <Route path='/Corporate_Security' element={<Construction />} />
-                <Route path='/Industrial_Security' element={<Construction />} />
-                <Route path='/Bank_Security' element={<Construction />} />
-                <Route path='/Residential_Security' element={<Construction />} />
-                <Route path='/Commercial_Complex_Security' element={<Construction />} />
-                <Route path='/Hotel_Security' element={<Construction />} />
-                <Route path='/Body_Guard' element={<Construction />} />
+                <Route path='/Corporate_Security' element={<Corporate />} />
+                <Route path='/Industrial_Security' element={<Industrial />} />
+                <Route path='/Bank_Security' element={<Bank />} />
+                <Route path='/Residential_Security' element={<Residential />} />
+                <Route path='/Commercial_Complex_Security' element={<Commercial />} />
+                <Route path='/Hotel_Security' element={<Hotel />} />
+                <Route path='/Body_Guard' element={<BodyGuard />} />
                 <Route path='/Clients' element={<Construction />} />
                 <Route path='/Contact_Us' element={<Construction />} />
                 <Route path="*" element={<Navigate to="/404" />} />

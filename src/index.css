@@ -22,6 +22,10 @@ a:hover {
   font-weight: 600;
 }
 
+.fw-700 {
+  font-weight: 700;
+}
+
 .bg-main {
   background-color: #091D42;
 }
@@ -48,8 +52,16 @@ a:hover {
   height: 80vh;
 }
 
+.ck-40-container {
+  height: 40vh;
+}
+
 .ck-tomato {
   color: tomato;
+}
+
+.ck-dark-blue {
+  color: #010415;
 }
 
 .cursor-pointer:hover {

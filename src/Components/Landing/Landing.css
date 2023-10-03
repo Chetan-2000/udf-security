@@ -7,7 +7,6 @@
     right: 0;
     background-size: cover;
     animation: waveAnimation 20s linear infinite;
-    /* Adjust the duration (10s) as needed */
 }
 
 @keyframes waveAnimation {
@@ -20,6 +19,16 @@
     }
 }
 
+.ck-services-bg {
+    background-image: url('./Assets/services-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 /* Responsive styles for smaller screens (e.g., smartphones) */
 @media (max-width: 767px) {
     .ck-wave-bg {
@@ -29,14 +38,18 @@
 
 /* Responsive styles for medium screens (e.g., tablets) */
 @media (min-width: 768px) and (max-width: 991px) {
-    .ck-wave-bg {
+
+    .ck-wave-bg,
+    .ck-services-bg {
         background-size: cover;
     }
 }
 
 /* Responsive styles for larger screens (e.g., desktops) */
 @media (min-width: 992px) {
-    .ck-wave-bg {
+
+    .ck-wave-bg,
+    .ck-services-bg.ck-wave-bg {
         background-size: cover;
         /* Adjust background size for larger screens */
     }
