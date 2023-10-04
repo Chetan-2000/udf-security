@@ -56,8 +56,12 @@ a:hover {
   height: 40vh;
 }
 
-.ck-tomato {
-  color: tomato;
+.ck-iris-blue {
+  color: #00B5E2;
+}
+
+.ck-main-dark {
+  color: #091D42;
 }
 
 .ck-dark-blue {

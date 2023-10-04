@@ -9,7 +9,7 @@ const MissionVissionCard = ({ data }) => {
                         </div>
                         <div className="">
                             <h3 className="fw-600 text-center my-3">
-                                Our <span className="ck-tomato">{n.heading}</span>
+                                Our <span className="ck-iris-blue">{n.heading}</span>
                             </h3>
                             <p className="ck-text-2 text-center">
                                 {n.desc}

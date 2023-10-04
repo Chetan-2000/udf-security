@@ -47,7 +47,7 @@ const Testimonials = () => {
                                 <div className='d-flex'>
                                     <img className="img-fluid testimonials-image" src={n.imagePath} alt="img" />
                                     <div>
-                                        <p className="ck-text-2 m-0 p-0 ck-tomato">
+                                        <p className="ck-text-2 m-0 p-0 ck-iris-blue">
                                             {n.testName}
                                         </p>
                                         <p className="ck-text-2 m-0 p-0">
@@ -60,7 +60,7 @@ const Testimonials = () => {
                     </OwlCarousel>
                 </div>
                 <div className='d-flex justify-content-end'>
-                    <Link to={'/'} className='ck-tomato ck-text-2'>View All</Link>
+                    <Link to={'/'} className='ck-iris-blue ck-text-2'>View All</Link>
                 </div>
             </div>
         </div>

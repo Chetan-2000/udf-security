@@ -106,6 +106,9 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <Link className={`nav-link ${isSticky ? 'text-dark' : 'text-white'}`} to="/Clients">Clients</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className={`nav-link ${isSticky ? 'text-dark' : 'text-white'}`} to="/Careers">Careers</Link>
+                            </li>
                         </ul>
                         <form className="d-flex" role="search">
                             <Link to="/Contact_Us" className='ck-btn-pill'>

@@ -3,7 +3,7 @@ const SecurityDescription = (props) => {
     const { data } = props;
     console.log(data);
     const words = data.heading.split(' ');
-    const lastTwoWords = <span className="ck-tomato">{words.slice(-2).join(' ')}</span>;
+    const lastTwoWords = <span className="ck-iris-blue">{words.slice(-2).join(' ')}</span>;
 
     return (
         <div className="ck-main-container">

@@ -9,7 +9,7 @@ const TestimonialsCard = ({ data }) => {
                     <div className="d-flex align-items-center">
                         <img className="img-fluid testimonials-image" src={n.imgPath} alt="img" />
                         <div>
-                            <p className="ck-text-2 ck-tomato">
+                            <p className="ck-text-2 ck-iris-blue">
                                 {n.testName}
                             </p>
                             <p className="ck-text-2 text-white">

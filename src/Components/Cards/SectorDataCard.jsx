@@ -1,6 +1,6 @@
 const SectorDataCard = ({ Heading, Paragraph, SectorImage }) => {
     const words = Heading.split(' ');
-    const firstWord = <span className="ck-tomato">{words[0]}</span>;
+    const firstWord = <span className="ck-iris-blue">{words[0]}</span>;
     const restOfHeading = words.slice(1).join(' ');
 
     return (

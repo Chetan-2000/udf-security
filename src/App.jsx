@@ -19,6 +19,7 @@ import Residential from './Containers/Services/Residential/Residential'
 import Commercial from './Containers/Services/Commercial/Commercial'
 import Hotel from './Containers/Services/Hotel/Hotel'
 import BodyGuard from './Containers/Services/BodyGuard/BodyGuard'
+import ContactUs from './Containers/ContactUs/ContactUs'
 
 function App() {
     useEffect(() => {
@@ -44,7 +45,7 @@ function App() {
                 <Route path='/Hotel_Security' element={<Hotel />} />
                 <Route path='/Body_Guard' element={<BodyGuard />} />
                 <Route path='/Clients' element={<Construction />} />
-                <Route path='/Contact_Us' element={<Construction />} />
+                <Route path='/Contact_Us' element={<ContactUs />} />
                 <Route path="*" element={<Navigate to="/404" />} />
                 <Route path="/404" element={<PageNotFound />} />
             </Routes>

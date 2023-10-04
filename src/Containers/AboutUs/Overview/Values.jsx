@@ -32,7 +32,7 @@ const Values = () => {
             <div className="container">
                 <div className="text-center">
                     <h3 className="fw-600 text-center my-3">
-                        Our <span className="ck-tomato">Values</span>
+                        Our <span className="ck-iris-blue">Values</span>
                     </h3>
                 </div>
                 <div className="">

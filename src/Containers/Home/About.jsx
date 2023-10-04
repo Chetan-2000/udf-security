@@ -3,7 +3,7 @@ const About = () => {
         <div className="ck-main-container bg-main d-flex align-items-center">
             <div className="container">
                 <h2 className="text-white">
-                    About <span className="ck-tomato">LOREM</span>
+                    About <span className="ck-iris-blue">LOREM</span>
                 </h2>
                 <p className="ck-text-2 text-white">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum asperiores, enim velit maxime amet excepturi aperiam placeat nihil. Suscipit at totam reprehenderit temporibus autem nam consequatur cum sed doloribus provident.

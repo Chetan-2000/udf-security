@@ -1,0 +1,32 @@
+.contact-banner {
+    background-image: url('./contact-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+.contact-form {
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: 0.3s ease-in-out;
+}
+
+.contact-form:hover {
+    transform: scale(1.01) translateY(-5px);
+}
+
+.contact-form .form-control:focus {
+    box-shadow: none;
+}
+
+@media screen and (max-width : 992px) {
+    .contact-form {
+        padding: 30px;
+    }
+
+    .contact-form .form-control {
+        margin-top: 20px;
+    }
+}

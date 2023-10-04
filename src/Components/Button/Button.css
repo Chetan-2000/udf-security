@@ -10,8 +10,8 @@
     display: block;
     border: 0px;
     font-weight: 700;
-    box-shadow: 0px 0px 14px -7px #f09819;
-    background-image: linear-gradient(45deg, #FF512F 0%, #F09819 51%, #FF512F 100%);
+    box-shadow: 0px 0px 14px -7px #4fd2f3;
+    background-image: linear-gradient(45deg, #00B5E2 0%, #4fd2f3 51%, #00B5E2 100%);
     cursor: pointer;
     user-select: none;
     -webkit-user-select: none;
@@ -44,8 +44,8 @@
     display: block;
     border: 0px;
     font-weight: 700;
-    box-shadow: 0px 0px 14px -7px #f09819;
-    background-image: linear-gradient(45deg, #FF512F 0%, #F09819 51%, #FF512F 100%);
+    box-shadow: 0px 0px 14px -7px #4fd2f3;
+    background-image: linear-gradient(45deg, #00B5E2 0%, #4fd2f3 51%, #00B5E2 100%);
     cursor: pointer;
     user-select: none;
     -webkit-user-select: none;
@@ -68,9 +68,9 @@
 /* button pill */
 
 .ck-btn-pill {
-    background: tomato;
+    background: #00B5E2;
     border-radius: 999px;
-    box-shadow: tomato 0 10px 20px -10px;
+    box-shadow: #00B5E2 0 10px 20px -10px;
     box-sizing: border-box;
     color: #FFFFFF;
     cursor: pointer;
@@ -106,7 +106,7 @@
 
 @media screen and (max-width : 600px) {
     .sector-tab {
-        padding: 10px 30px ;
+        padding: 10px 30px;
         font-weight: 500;
         font-size: 15px;
     }

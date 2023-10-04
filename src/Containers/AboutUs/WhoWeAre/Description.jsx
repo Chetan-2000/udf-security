@@ -4,7 +4,7 @@ const Description = () => {
     return (
         <div className="ck-main-container-top bg-white d-flex align-items-center">
             <div className="container">
-                <h3 className='fw-600'><span className='ck-tomato'>Who</span> We Are?</h3>
+                <h3 className='fw-600'><span className='ck-iris-blue'>Who</span> We Are?</h3>
                 <div className="row mt-5">
                     <div className="col-lg-6 col-md-12 col-sm-12">
                         <div className="overview-image">
