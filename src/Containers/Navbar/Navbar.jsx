@@ -101,7 +101,7 @@ const Navbar = () => {
                                     </>}
                             </li>
                             <li className="nav-item">
-                                <Link className={`nav-link ${isSticky ? 'text-dark' : 'text-white'}`} to="/Trainning">Training</Link>
+                                <Link className={`nav-link ${isSticky ? 'text-dark' : 'text-white'}`} to="/Training">Training</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className={`nav-link ${isSticky ? 'text-dark' : 'text-white'}`} to="/Clients">Clients</Link>

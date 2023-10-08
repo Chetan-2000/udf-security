@@ -12,7 +12,7 @@ const ContactUs = () => {
                         <div>
                             <p className="ck-text-1 fw-600">Contact Us</p>
                             <h3 className="ck-main-dark fw-700">
-                                Get In Touch With Us
+                                <span className="ck-iris-blue">Get In</span> Touch With Us
                             </h3>
                             <p className="ck-text-2 text-secondary">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum laudantium quia dicta tempore? Fugit incidunt dolor vel recusandae eaque accusantium.

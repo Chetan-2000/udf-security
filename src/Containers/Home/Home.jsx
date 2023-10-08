@@ -1,4 +1,5 @@
 import About from './About'
+import Achievment from './Achievment'
 import './Home.css'
 import Landing from './Landing'
 import Services from './Services'
@@ -9,7 +10,8 @@ const Home = () => {
         <div>
             <Landing />
             <Services />
-            <About />
+            <Achievment />
+            {/* <About /> */}
             <Testimonials />
         </div>
     )

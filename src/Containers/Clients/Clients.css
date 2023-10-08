@@ -1,0 +1,7 @@
+.ck-client-bg {
+    background-image: url('./assets/clients-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: 10% 90%;
+    background-size: cover;
+    background-attachment: fixed;
+}

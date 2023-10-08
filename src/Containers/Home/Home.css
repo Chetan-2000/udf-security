@@ -22,6 +22,12 @@
     background-size: cover;
 }
 
+.achievment-bg {
+    background-image: url('./Assets/growth.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 /* testimonials */
 

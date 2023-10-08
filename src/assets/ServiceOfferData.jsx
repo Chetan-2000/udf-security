@@ -6,28 +6,28 @@ const ServiceOfferData = [
         icon: <CCTVSvg />, // Store the component as a reference
         heading: <>Corporate and<br /> Industrial Security</>,
         paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolor fugiat natus placeat tenetur magnam at facilis adipisci facere voluptas alias eligendi nobis ex, tempora quasi quae, veniam saepe ad!',
-        link: '#1'
+        link: '/Corporate_Security'
     },
     {
         id: 2,
         icon: <CCTVSvg />,
         heading: <>Bank <br />Security</>,
         paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolor fugiat natus placeat tenetur magnam at facilis adipisci facere voluptas alias eligendi nobis ex, tempora quasi quae, veniam saepe ad!',
-        link: '#2'
+        link: '/Bank_Security'
     },
     {
         id: 3,
         icon: <CCTVSvg />,
         heading: <>Residential<br />Security</>,
         paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolor fugiat natus placeat tenetur magnam at facilis adipisci facere voluptas alias eligendi nobis ex, tempora quasi quae, veniam saepe ad!',
-        link: '#3'
+        link: '/Residential_Security'
     },
     {
         id: 4,
         icon: <CCTVSvg />,
         heading: <>Commercial<br />Complex</>,
         paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolor fugiat natus placeat tenetur magnam at facilis adipisci facere voluptas alias eligendi nobis ex, tempora quasi quae, veniam saepe ad!',
-        link: '#4'
+        link: '/Commercial_Complex_Security'
     }
 ];
 
