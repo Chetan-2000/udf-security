@@ -1,0 +1,22 @@
+.training-card-img-container {
+    border-radius: 80px;
+    overflow: hidden;
+    max-width: 500px;
+    min-width: 250px !important;
+}
+
+.training-card-image {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+.training-card-image:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width : 992px) {
+    .training-card-img-container {
+        margin-top: 30px;
+    }
+}

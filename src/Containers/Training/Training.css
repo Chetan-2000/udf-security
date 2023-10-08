@@ -1,0 +1,8 @@
+.trainning-bg {
+    background-image: url('./Assets/Trainning.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    min-height: 400px;
+}
